@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="search.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <label>
+        Номер квитанции:
+        <input
+          id="kv"
+          type="number"
+          class="textfield"
+          placeholder="№ квитанции"
+        />
+      </label>
+
+      <label
+        >ФИО:
+        <input
+          id="username"
+          type="text"
+          class="textfield"
+          placeholder="Ф.И.О"
+          required
+        />
+      </label>
+
+      <tr>
+        <td align="center" id="td_isfound"></td>
+      </tr>
+
+      <tr>
+        <td id="td_device">&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+        <td id="td_status">&nbsp;</td>
+      </tr>
+
+      <a href="" onclick="validate(this.form)">Отправить</a>
+    </form>
+  </body>
+</html>
